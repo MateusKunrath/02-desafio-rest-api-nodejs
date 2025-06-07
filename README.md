@@ -3,10 +3,10 @@
 - [x] Deve ser possível criar um usuário
 - [x] Deve ser possível registrar uma refeição feita
 - [x] Deve ser possível editar uma refeição
-- [ ] Deve ser possível apagar uma refeição
+- [x] Deve ser possível apagar uma refeição
 - [x] Deve ser possível listar todas as refeições do usuário
 - [x] Deve ser possível visualizar uma única refeição
-- [ ] Deve ser possível recuperar as métricas do usuário
+- [x] Deve ser possível recuperar as métricas do usuário
 
 # RN
 - [x] Deve ser possível identificar o usuário entre as requisições
@@ -16,8 +16,8 @@
    - [x] Descrição
    - [x] Data e hora
    - [x] Está dentro da dieta ou não
-- [ ] As métricas devem ser de:
-   - [ ] Quantidade total de refeições registradas
-   - [ ] Quantidade total de refeições dentro da dieta
-   - [ ] Quantidade total de refeições fora da dieta
-   - [ ] Melhor sequência de refeições dentro da dieta
+- [x] As métricas devem ser de:
+   - [x] Quantidade total de refeições registradas
+   - [x] Quantidade total de refeições dentro da dieta
+   - [x] Quantidade total de refeições fora da dieta
+   - [x] Melhor sequência de refeições dentro da dieta
