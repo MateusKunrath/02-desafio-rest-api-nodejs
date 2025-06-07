@@ -4,13 +4,6 @@ import { z } from 'zod'
 import { knex } from '../database'
 
 export async function usersRoutes(app: FastifyInstance) {
-  app.get('/', async () => {
-    // TODO: REMOVER
-    const users = await knex('users').select()
-
-    return users
-  })
-
   app.post('/', async (request, reply) => {
     const userCreateBodySchema = z.object({
       name: z.string(),
