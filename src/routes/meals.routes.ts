@@ -92,7 +92,7 @@ export async function mealsRoutes(app: FastifyInstance) {
         return reply.status(404).send({ error: 'Meal not found' })
       }
 
-      await knex('meals').where({ id, user_id: request.user?.id }).update({
+      await knex('meals').where({ id }).update({
         name,
         description,
         is_on_diet: isOnDiet,
@@ -170,7 +170,7 @@ export async function mealsRoutes(app: FastifyInstance) {
         return reply.status(404).send({ error: 'Meal not found' })
       }
 
-      await knex('meals').where({ id, user_id: request.user?.id }).delete()
+      await knex('meals').where({ id }).delete()
 
       return reply.status(204).send()
     },
